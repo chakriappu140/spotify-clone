@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Spotify Clone is a web application designed to replicate some of the core functionalities of Spotify, including user registration, login, music browsing, and playlist creation. It is built using HTML, CSS, and PHP, and utilizes a MySQL database for storing user and music data.
+This Spotify Clone is a web application(Frontend) designed to replicate some of the core functionalities of Spotify, including user registration, login, music browsing, and playlist creation. It is built using HTML, CSS.
 
 ## Features
 
@@ -16,8 +16,6 @@ This Spotify Clone is a web application designed to replicate some of the core f
 ## Requirements
 
 - 🌐 Web Server (e.g., Apache, Nginx)
-- 🐘 PHP 7.4 or higher
-- 🐬 MySQL 5.7 or higher
 
 ## Installation
 
@@ -28,19 +26,6 @@ git clone https://github.com/yourusername/spotify-clone.git
 cd spotify-clone
 ```
 
-### Setup Database
-
-1. **🗄️ Import the Database**: Import the `spotify.sql` file into your MySQL database.
-2. **🔧 Configure Database**: Update the database configuration in `config.php` file.
-
-```php
-// config.php
-$servername = "your_servername";
-$username = "your_username";
-$password = "your_password";
-$dbname = "spotify";
-```
-
 ### Run the Application
 
 1. **🌐 Start the Web Server**: Ensure your web server and MySQL server are running.
@@ -49,10 +34,7 @@ $dbname = "spotify";
 ## Folder Structure
 
 - **📁 assets**: Contains images, stylesheets, and other static assets.
-- **📁 includes**: Contains PHP scripts for database connection and other utilities.
 - **📁 pages**: Contains main pages like home, search, and playlists.
-- **📁 config.php**: Configuration file for database connection.
-- **📁 spotify.sql**: SQL file for setting up the database.
 
 ## Usage
 
@@ -95,7 +77,7 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 - 🎨 Design inspiration from Spotify.
-- 💻 Built with love using HTML, CSS, and PHP.
+- 💻 Built with love using HTML, CSS.
 
 ---
 
